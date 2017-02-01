@@ -1,6 +1,6 @@
 body {
     background-image: url('../../images/purple.png');
-    color: #ffffff;
+    color: #8e7a88;
     text-align:center;
     font-family: 'PT Sans Narrow', sans-serif;
     height: 100%;
@@ -11,15 +11,29 @@ body {
     background-size: cover;
 }
 
+h1 {
+    text-shadow: -1px 0 #c4a2d3, 0 1px #fef8e7 , 1px 0 #fef8e7 , 0 -1px #fef8e7;
+}
+
+h3 {
+    text-shadow: -1px 0 #6b4b5f, 0 1px #fef8e7 , 1px 0 #fef8e7 , 0 -1px #fef8e7;
+    color: #592f6d;
+}
 
 .jumbotron {
     padding-top: 100px;
-    background-image: url('../../images/purple.png');
+    background-image: url('../../images/sea.jpg');
     background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
 
 .img-circle {
-    border-radius: 50%;
+    border-radius: 30%;
+}
+
+#portrait {
+    width: 40vw;
 }
 
 
