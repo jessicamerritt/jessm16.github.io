@@ -1,7 +1,6 @@
 body {
 
     background-color: #9AB8C2;
-    background-image: url('../../images/flowerBack.jpg');
     text-align:center;
     font-family: 'PT Sans Narrow', sans-serif;
     height: 100%;
@@ -17,6 +16,10 @@ p {
     font-size: 25px;
 }
 
+#resume .object {
+    height: 500px;
+}
+
 .textContainer {
     padding-top: 5vh
 }
@@ -26,6 +29,9 @@ p {
     text-align: center;
 }
 
+.fullHeightContainers {
+    overflow: auto;
+}
 h1 {
     text-shadow: -1px 0 #c4a2d3, 0 1px #fef8e7 , 1px 0 #fef8e7 , 0 -1px #fef8e;
 }
